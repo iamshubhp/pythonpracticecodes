@@ -1,1 +1,2 @@
-food = input("Enter the food you like (q to quit): ")
+for fruit in (fruits):
+    print(fruit)
