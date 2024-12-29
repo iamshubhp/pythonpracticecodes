@@ -31,7 +31,7 @@ for question in questions:
     
     if guess == answers[ques_num]:
         score += 1
-        print(f"{answers} is the correct Answer")
+        print(f"{answers[ques_num]} is the correct Answer")
     
     else:
         print("Incorrect Answer")
